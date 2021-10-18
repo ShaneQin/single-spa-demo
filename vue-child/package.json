@@ -1,0 +1,24 @@
+{
+  "name": "vue-child",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "vue-cli-service serve --port 3000"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "postcss-selector-namespace": "^3.0.1",
+    "single-spa-vue": "^2.5.1",
+    "stats-webpack-plugin": "^0.7.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
